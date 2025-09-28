@@ -5,7 +5,7 @@ import App from './App.tsx'
 import { VisitedCountriesProvider } from "./context/VisitedCountriesProvider.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/CountryWiki_React">
     <VisitedCountriesProvider>
       <App />
     </VisitedCountriesProvider>
